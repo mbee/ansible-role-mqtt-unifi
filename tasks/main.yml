@@ -1,0 +1,26 @@
+- name: Create directory for mqtt-unifi
+  file:
+    state: directory
+    path: /opt/mqtt-unifi/bin
+
+- name: Get mqtt-unifi binary
+  get_url:
+    url: "{{ lookup('vars', 'mqtt_unifi_' + ansible_machine + '_url') }}"
+    dest: /opt/mqtt-unifi/bin/mqtt-unifi
+    mode: "0755"
+
+- name: create mqtt-unifi service
+  template:
+     src: mqtt-unifi.service.j2
+     dest: /lib/systemd/system/mqtt-unifi.service
+     mode: "0644"
+
+- name: install new mqtt-unifi service
+  systemd:
+    daemon_reload: yes
+
+- name: install new mqtt-unifi service
+  systemd:
+    enabled: yes
+    name: mqtt-unifi
+    state: started

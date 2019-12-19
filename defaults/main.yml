@@ -1,0 +1,7 @@
+unifi_url: https://particulier.edf.fr/bin/edf_rc/servlets/ejptemponew?Date_a_remonter=%s&TypeAlerte=TEMPO
+
+unifi_mqtt_x86_64_url: https://bitbucket.org/mbee/mqtt-unifi/raw/22566cf4c9230cf2754795cc462bdf91e3f09bb0/release/1.0.0/linux/amd64/mqtt-unifi
+unifi_mqtt_armv7l_url: https://bitbucket.org/mbee/mqtt-unifi/raw/22566cf4c9230cf2754795cc462bdf91e3f09bb0/release/1.0.0/linux/arm/mqtt-unifi
+unifi_mqtt_url: tcp://localhost:1883
+unifi_mqtt_login:
+unifi_mqtt_password:
