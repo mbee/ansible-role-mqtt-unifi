@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Marc Bee
+  description: install mqtt-unifi debian
+  company: N/A
+
+  license: BSD-3-Clause
+
+  min_ansible_version: 2.9
+
+  platforms:
+  - name: Debian
+    versions:
+    - 9.11
+
+  galaxy_tags: ['mqtt', 'unifi']
+
+dependencies: []
