@@ -5,7 +5,7 @@
 
 - name: Get mqtt-unifi binary
   get_url:
-    url: "{{ lookup('vars', 'mqtt_unifi_' + ansible_machine + '_url') }}"
+    url: "{{ lookup('vars', 'unifi_mqtt_' + ansible_machine + '_url') }}"
     dest: /opt/mqtt-unifi/bin/mqtt-unifi
     mode: "0755"
 
