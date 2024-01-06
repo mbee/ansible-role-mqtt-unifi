@@ -1,9 +1,10 @@
-unifi_mqtt_x86_64_url: https://bitbucket.org/mbee/mqtt-unifi/raw/c1cee48249ca1206bc8db3fb1b92402c518d667c/release/1.0.1/linux/amd64/mqtt-unifi
-unifi_mqtt_armv7l_url: https://bitbucket.org/mbee/mqtt-unifi/raw/c1cee48249ca1206bc8db3fb1b92402c518d667c/release/1.0.1/linux/arm/mqtt-unifi
-unifi_mqtt_aarch64_url: https://bitbucket.org/mbee/mqtt-unifi/raw/c1cee48249ca1206bc8db3fb1b92402c518d667c/release/1.0.1/linux/aarch64/mqtt-unifi
+unifi_mqtt_x86_64_url: https://raw.githubusercontent.com/mbee/mqtt-unifi/master/release/1.0.3/linux/amd64/mqtt-unifi
+unifi_mqtt_armv7l_url: https://raw.githubusercontent.com/mbee/mqtt-unifi/master/release/1.0.3/linux/arm/mqtt-unifi
+unifi_mqtt_aarch64_url: https://raw.githubusercontent.com/mbee/mqtt-unifi/master/release/1.0.3/linux/aarch64/mqtt-unifi
 unifi_mqtt_url: localhost:1883
 unifi_mqtt_login:
 unifi_mqtt_password:
+unifi_mqtt_name: mqtt_unifi_v103
 unifi_host: localhost
 unifi_user:
 unifi_pass:
